@@ -46,9 +46,8 @@
 
 * [Android-Activity所应该了解的大概就这样。（上） - 简书]( https://www.jianshu.com/p/33d0a0abd990)
 
+
 ### 1.2 Activity的启动模式
-
-
 
 #### 关于Activity生命周期的基础篇:
 * 关于Activity的launchMode的基础介绍:[【Android归纳】Activity启动模式 - s003603u的专栏 - CSDN博客]( http://blog.csdn.net/s003603u/article/details/47056379)
@@ -63,7 +62,7 @@ Calling startActivity() from outside of an Activity context requires the FLAG_AC
 
 但很好奇的是我在Intent的第一个参数传入ApplicationContext没有报错,这里使得我心里存疑...
 
-
+[Android中Activity四种启动模式和taskAffinity属性详解 - CSDN博客](http://blog.csdn.net/zhangjg_blog/article/details/10923643)
 
 
 
