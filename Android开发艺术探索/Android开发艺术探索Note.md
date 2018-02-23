@@ -48,6 +48,8 @@
 
 ### 1.2 Activity的启动模式
 
+
+
 #### 关于Activity生命周期的基础篇:
 * 关于Activity的launchMode的基础介绍:[【Android归纳】Activity启动模式 - s003603u的专栏 - CSDN博客]( http://blog.csdn.net/s003603u/article/details/47056379)
 * [Android-Activity所应该了解的大概就这样。（中） - 简书]( https://www.jianshu.com/p/c7889a533050)
