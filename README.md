@@ -2,8 +2,10 @@
 读书笔记
 
 ## 阅读目录
-* [《Android第二行代码》](http://blog.csdn.net/guolin_blog/article/details/52032038)
+* [自学编程必备的6大方法](./Android第一行代码/自学编程必备的6大方法Note.md)
+* [《Android第一行代码》](.Android第一行代码/Android第一行代码Note.md)
 * [《Android开发艺术探索》](./Android开发艺术探索/Android开发艺术探索Note.md)
+* [《Android进阶之光》](./Android进阶之光Android进阶光Note.md)
 
 PS:我个人认为项目是用于实战,书是用于帮你构建知识体系,但切记不要读垃圾书以及远远超过自己现有知识范围的书籍,比如你c/c++还不懂就去看c++动态库的书籍,那么就会gg了
 
@@ -52,6 +54,14 @@ PS:我个人认为项目是用于实战,书是用于帮你构建知识体系,但
  * 技术延展问题:
    * [讲给Android程序员看的前端和后台教程 - 谷哥的小弟 - CSDN博客]( http://blog.csdn.net/lfdfhl/article/details/78280309)
    * [Java 后端自学之路]( http://objcoding.com/2018/02/07/javaweb-learning/)
+
+   ## 写作工具
+   * 之前在CSDN博客以及博客园上写作,但GitHub平台对markdown语法支持以及渲染非常好,所以决定弃暗投明,拥抱GitHub怀抱,在寻找markdown的写作工具的时候,我用过很多,最后还是选择了GitHub出品的Atom以及微软的VS Code
+    * Atom不翻墙全局代理的话可以看这个教程:[ATOM插件安装详细教程 - 简书 ](https://www.jianshu.com/p/b4e80ed3a304)
+   * 看了那么多博客,最好看的还是私人博客的排版等好看,毕竟一种米养百种人,每个人可以根据同一个技术平台制作出自己喜欢的写作风格,说了那么多其实就是建议你自搭博客平台
+    * [2018，你该搭建自己的博客了！ | Ryan's Blog](http://ryane.top/2018/01/10/2018%EF%BC%8C%E4%BD%A0%E8%AF%A5%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%BA%86%EF%BC%81/)
+    * [关于HEXO搭建个人博客的点点滴滴 - 掘金](https://juejin.im/post/5a6ee00ef265da3e4b770ac1)
+
 
 
 ## Support

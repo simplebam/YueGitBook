@@ -51,18 +51,33 @@
 
 #### 关于Activity生命周期的基础篇:
 * 关于Activity的launchMode的基础介绍:[【Android归纳】Activity启动模式 - s003603u的专栏 - CSDN博客]( http://blog.csdn.net/s003603u/article/details/47056379)
-* [Android-Activity所应该了解的大概就这样。（中） - 简书]( https://www.jianshu.com/p/c7889a533050)
-* [Android-Activity所应该了解的大概就这样。（下） - 简书]( https://www.jianshu.com/p/931df8420e2f)
+* [Android中Activity四种启动模式和taskAffinity属性详解 - CSDN博客](http://blog.csdn.net/zhangjg_blog/article/details/1092364)
+
+#### 探究
+* 书中提及“如果一个以singleTop模式启动的activity的实例已经存在于任务桟的桟顶，那么再启动这个Activity时，不会创建新的实例，而是重用位于栈顶的那个实例”,但它会走什么生命周期方法呢？
+```
+startActivity(new Intent(MainActivity.this, MainActivity.class));//这里MainActivity为singleTop模式启动
+```
+
+ ![Activity生命周期图](./activity_lifestyle_singTop.png)
+
+ 如图所示,Activity还是会走 onPause->onResume 的
 
 
 
-关于书中提及,类似[使用ApplicationContext启动standard模式的Activity报错原因解析 - haohengyuan的专栏 - CSDN博客]( http://blog.csdn.net/haohengyuan/article/details/51898448):
+#### 书中存疑点
+* 关于书中P15提及,类似[使用ApplicationContext启动standard模式的Activity报错原因解析 - haohengyuan的专栏 - CSDN博客]( http://blog.csdn.net/haohengyuan/article/details/51898448):
 >当我们使用ApplicationContext去启动 standard模式的Activity的时候会报错：
 Calling startActivity() from outside of an Activity context requires the FLAG_ACTIVITY_NEW_TASK flag. Is this really what you want?
 
-但很好奇的是我在Intent的第一个参数传入ApplicationContext没有报错,这里使得我心里存疑...
+ 但很好奇的是我在Intent的第一个参数传入ApplicationContext没有报错,如下代码:
+ ```
+ //SecondActivity的启动模式为standard
+ Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
+getApplicationContext().startActivity(intent);
+ ```
 
-[Android中Activity四种启动模式和taskAffinity属性详解 - CSDN博客](http://blog.csdn.net/zhangjg_blog/article/details/10923643)
+
 
 
 
