@@ -3,7 +3,7 @@
 
 ## 阅读目录
 * [自学编程必备的6大方法](./Android第一行代码/自学编程必备的6大方法Note.md)
-* [《Android第一行代码》](.Android第一行代码/Android第一行代码Note.md)
+* [《Android第一行代码》](./Android第一行代码/Android第一行代码Note.md)
 * [《Android开发艺术探索》](./Android开发艺术探索/Android开发艺术探索Note.md)
 * [《Android进阶之光》](./Android进阶之光Android进阶光Note.md)
 
