@@ -40,7 +40,7 @@
  * 这篇文章翻译关于onSaveInstanceState()调用的话语实在看不懂:
   > Android calls onSaveInstanceState() before the activity becomes vulnerable   to being destroyed by the system, but does not bother calling it when the instance is actually being destroyed by a user action (such as pressing the BACK key)
   >
-  > 其实就是系统去销毁它会调用onSaveInstanceState(),但如果是主动调用比如主动点击返回键销毁的华就不会调用onSaveInstanceState()
+  > 其实就是系统去销毁它会调用onSaveInstanceState(),但如果是主动调用比如主动点击返回键销毁的话就不会调用onSaveInstanceState()
 
   * 系统只会在Activity异常终止的时候才会调用onSaveInstanceState()和onRestoreInstanceState()来存储和恢复数据,其他情况不会触发这个过程
 
@@ -76,8 +76,15 @@ Calling startActivity() from outside of an Activity context requires the FLAG_AC
  Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
 getApplicationContext().startActivity(intent);
  ```
+经过我机型测试,发现5.0以下的会存在这个问题,但7.0之后的机型都不会存在这个问题
 
-
+### 书中补充点
+* startActivityForResult和启动模式
+  startActivityForResult方法能够起效：standard和singleTop
+  startActivityForResult方法不能够起效：singleTas和singleInstance
+  * 只要将被启动的Activity属性设置为singleTask则一定不起效
+  * 只要将被启动的Activity属性设置为singleInstance则一定不起效
+  * 只要将启动的Activity模式设置为singleInstance则不论被启动的Activity为什么模式均不起效
 
 
 
