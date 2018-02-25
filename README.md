@@ -4,8 +4,8 @@
 ## 阅读目录
 * [自学编程必备的6大方法](./Android第一行代码/自学编程必备的6大方法Note.md)
 * [《Android第一行代码》](./Android第一行代码/Android第一行代码Note.md)
-* [《Android开发艺术探索》](./Android进阶之光/Android进阶之光Note.md)
-* [《Android进阶之光》](./Android进阶之光/Android进阶光Note.md)
+* [《Android开发艺术探索》](./Android开发艺术探索/Android开发艺术探索Note.md)
+* [《Android进阶之光》](./Android进阶之光/Android进阶之光Note.md)
 
 PS:我个人认为项目是用于实战,书是用于帮你构建知识体系,但切记不要读垃圾书以及远远超过自己现有知识范围的书籍,比如你c/c++还不懂就去看c++动态库的书籍,那么就会gg了
 
