@@ -85,6 +85,9 @@ getApplicationContext().startActivity(intent);
   * 只要将被启动的Activity属性设置为singleTask则一定不起效
   * 只要将被启动的Activity属性设置为singleInstance则一定不起效
   * 只要将启动的Activity模式设置为singleInstance则不论被启动的Activity为什么模式均不起效
+* taskAffinity
+  * [android android:taskAffinity 详解 - CSDN博客]( http://blog.csdn.net/dblackde/article/details/7608255)
+  * [Android Application Task Activities的关系 - 蝈蝈俊 - 博客园](http://www.cnblogs.com/ghj1976/archive/2011/04/29/2032412.html)
 
 
 
