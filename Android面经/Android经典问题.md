@@ -54,8 +54,6 @@
   * [Android HandlerThread 总结使用 - 赵彦军 - 博客园 ](https://www.cnblogs.com/zhaoyanjun/p/6062880.html)
 * ActivityThread的main方法主要做了哪些操作？
   * [ActivityThread的main方法究竟做了什么？ - CSDN博客 ](https://blog.csdn.net/melodev/article/details/51959347)
-* 说一下网络连接的状态码的含义？
-  *
 * 什么情况下使用单例模式？
   * [Android设计模式之单例模式 - stormzhang ](http://stormzhang.com/designpattern/2016/03/27/android-design-pattern-singleton/)
   * [你真的会写单例吗 | Blankj's Blog ](https://blankj.com/2016/04/21/really-use-singleton/)
@@ -66,9 +64,17 @@
       相关的两个线程或者进程之间实现通信。
 * volatile域
   * [Java并发编程（三）volatile域 - CSDN博客 ](https://blog.csdn.net/itachi85/article/details/50274169)
-
-## Support
-最近在项目中学习,在项目中成长,所以亲们会看到我在项目里面写博客啦,哈哈哈 <br/>
-如果你喜欢这个repository，请我喝杯咖啡，我会让它更完美~ <br/>
-
-<a href="get_me_a_drink.png"><img src="get_me_a_drink.png" width="30%" height="30%"/>
+* 了解过哪些设计模式？分别详细说一下优缺点？
+  * [simplebam/JavaDesignPatterns: Java常用的设计模式](https://github.com/simplebam/JavaDesignPatterns)
+* 说一下网络连接的状态码的含义？
+  * [网络：HTTP协议状态码详解-hiyachen-ChinaUnix博客 ](http://m.blog.chinaunix.net/uid-7374279-id-4844638.html)
+* GET和POST两种基本请求方法的区别
+  * [GET和POST两种基本请求方法的区别 - 在途中# - 博客园 ](http://www.cnblogs.com/logsharing/p/8448446.html)
+* Java NIO和IO的主要区别
+  * [Java NIO和IO的主要区别 - THISISPAN - 博客园 ](http://www.cnblogs.com/panxuejun/p/8631423.html)
+* 说一下长连接的优点和缺点？
+  * [HTTP长连接和短连接 - WhyWin - 博客园 ](http://www.cnblogs.com/0201zcr/p/4694945.html)
+* 为什么静态内部类不会造成内存泄漏？
+  * [Android 非静态内部类/匿名类引起的内存泄漏 - CSDN博客 ](https://blog.csdn.net/u010618194/article/details/64147538)
+* java多线程的三个特性？原理分别是什么？
+  * [多线程编程中三个特性 - CSDN博客 ](https://blog.csdn.net/xiong_hui_hui/article/details/51241338)
